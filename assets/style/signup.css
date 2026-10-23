@@ -1,0 +1,32 @@
+body {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userInfo {
+    width: 27%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.userInfo h1 {
+    margin-bottom: 15px;
+}
+
+.userInfo form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

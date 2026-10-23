@@ -1,0 +1,25 @@
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 20px;
+    gap: 10px;
+}
+
+.user .greet {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info span {
+    font-weight:700;
+    font-size:large;
+}
